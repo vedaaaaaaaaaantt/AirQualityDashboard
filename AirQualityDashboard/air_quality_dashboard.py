@@ -1,3 +1,40 @@
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import numpy as np
+from sklearn.cluster import KMeans
+from prophet import Prophet
+
+# Load the Excel file from the same folder
+df = pd.read_excel("AndhraPradesh.xlsx")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Import necessary libraries
 import streamlit as st
 import pandas as pd
