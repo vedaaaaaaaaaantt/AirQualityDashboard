@@ -1,3 +1,48 @@
+# Import necessary libraries
+import streamlit as st
+import pandas as pd
+
+# Add the file uploader widget
+uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx"])
+
+# Check if the file is uploaded
+if uploaded_file is not None:
+    # Read the uploaded Excel file into a pandas DataFrame
+    df = pd.read_excel(uploaded_file)
+    
+    # Display the DataFrame in the Streamlit app
+    st.write(df)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import streamlit as st
 import pandas as pd
 
